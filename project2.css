@@ -1,0 +1,64 @@
+.custom_nav {
+    background: rgba(242, 243, 241, 0.753);
+    color: black;
+    padding: 30px;
+}
+
+nav a.navbar-brand {
+    color: black;
+    transition: all 0.2s ease;
+    font-size: 1.6rem;
+}
+
+nav a {
+    color: rgb(146, 145, 145);
+    font-size: 1.2rem;
+    ;
+}
+
+nav a:hover {
+    color: rgba(182, 170, 170, 0.657)
+}
+
+.custom_padding {
+    padding-top: 110px;
+}
+
+.overlay {
+    background-image: url("demo1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.overlay .btn-outline-light:hover {
+    background-color: transparent;
+}
+
+.overlay .inner-overlay {
+    background: rgba(54, 130, 173, 0.3);
+}
+
+.inner-overlay .display-2 {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 0.8em;
+}
+
+.card_image {
+    position: absolute;
+    top: -25%;
+    left: 25%;
+}
+
+.hover_custom {
+    transition: all 0.2s ease;
+}
+
+.hover_custom:hover {
+    background-color: rgb(22, 165, 165);
+    color: white;
+}
+
+.custom_card {
+    position: relative;
+}
